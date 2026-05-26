@@ -49,3 +49,5 @@ The cleaner gallery lives at [lightbrush.art](https://lightbrush.art). GitHub is
 <p align="center">
   <img src="assets/lightbrush-footer-loop.svg" alt="Lightbrush animated chrome loop" width="72%" />
 </p>
+
+<!-- profile-refresh: 2026-05-26 -->
