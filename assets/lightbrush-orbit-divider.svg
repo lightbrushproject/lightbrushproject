@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 130" role="img" aria-label="Animated Lightbrush orbit divider">
+  <defs>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#080808" stop-opacity="0"/>
+      <stop offset=".22" stop-color="#8deaff"/>
+      <stop offset=".5" stop-color="#f5f1e8"/>
+      <stop offset=".78" stop-color="#ff3d7f"/>
+      <stop offset="1" stop-color="#080808" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1100" height="130" fill="#080808"/>
+  <path d="M54 65 C230 5 370 126 550 65 S866 5 1046 65" fill="none" stroke="url(#line)" stroke-width="3" filter="url(#glow)"/>
+  <circle r="10" fill="#f5f1e8" filter="url(#glow)">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M54 65 C230 5 370 126 550 65 S866 5 1046 65"/>
+  </circle>
+  <circle r="7" fill="#ff3d7f" filter="url(#glow)">
+    <animateMotion dur="6s" begin="-3s" repeatCount="indefinite" path="M54 65 C230 5 370 126 550 65 S866 5 1046 65"/>
+  </circle>
+</svg>
