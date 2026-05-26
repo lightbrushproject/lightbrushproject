@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/lightbrush-kinetic-header.svg" alt="Lightbrush Project - immersive visuals, coded spectacle, real-time systems" width="100%" />
+  <img src="assets/lightbrush-kinetic-header.svg" alt="Lightbrush Project - immersive visuals, Dream, Ship, Repeat, real-time systems" width="100%" />
 </p>
 
 <p align="center">
